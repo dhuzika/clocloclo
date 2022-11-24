@@ -1,5 +1,8 @@
 # clocloclo
 
+padding is the space between the content and the border, whereas margin is the space outside the border.
+
+
 # COPIA APPLE
 
 ##################################################
