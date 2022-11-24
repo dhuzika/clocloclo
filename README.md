@@ -346,5 +346,68 @@ header nav {
 
 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css'>
+    <title>Document</title>
+    <style>
+        .sa {
+            margin-top: 100px;
+            margin-left: 40px;
+        }
+        #se {
+            margin-left: 100px;
+        }
+        form {
+            padding-right: 100px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a href="#" span class="navbar-brand mb-0 h1">
+            <img class="d-inline-block align-top" src="nbnb.png" alt="nasa" width="30" height="30">
+            Navbar
+        </a>
+        <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+           <li class="nav-item active">
+                <a href="#" class="nav-link active">
+                    Home
+                </a>
+           </li> 
+           <li class="nav-item active">
+            <a href="#" class="nav-link active">
+                Features
+            </a>
+       </li> 
+       <li class="nav-item active">
+        <a href="#" class="nav-link active">
+            Pricing
+        </a>
+        </li> 
+        </ul>
+    </div>
+    <form class="d-flex"><input type="text" class="form-control me-2"></form>
+</nav>
 
+
+
+<div class="sa">
+    <img src="nbnb.png" alt="" height="400px" width="400px" id="pr">
+    <img src="nbnb.png" alt="" height="400px" width="500px" id="se">
+</div>
+
+
+
+</body>
+</html>
 
